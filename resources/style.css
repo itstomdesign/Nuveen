@@ -26,43 +26,43 @@ html {
     .lead-container img {
         height: 520px;
     }
-  }
+}
 
-  @media only screen and (max-width: 935px) {
+@media only screen and (max-width: 935px) {
     .lead-container img {
         height: 570px;
     }
-  }
+}
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .lead-container img {
         height: 640px;
     }
-  }
+}
 
-  @media only screen and (max-width: 554px) {
+@media only screen and (max-width: 554px) {
     .lead-container img {
         height: 654px;
     }
-  }
+}
 
-  @media only screen and (max-width: 524px) {
+@media only screen and (max-width: 524px) {
     .lead-container img {
         height: 702px;
     }
-  }
+}
 
-  @media only screen and (max-width: 489px) {
+@media only screen and (max-width: 489px) {
     .lead-container img {
         height: 773px;
     }
-  }
+}
 
-  @media only screen and (max-width: 358px) {
+@media only screen and (max-width: 358px) {
     .lead-container img {
         height: 821px;
     }
-  }
+}
 
 
 .background {
@@ -83,46 +83,46 @@ html {
 }
 
 @media only screen and (max-width: 1272px) {
-    .background{
+    .background {
         height: 520px;
     }
-  }
+}
 
-  @media only screen and (max-width: 935px) {
+@media only screen and (max-width: 935px) {
     .background {
         height: 570px;
     }
-  }
+}
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .background {
         height: 640px;
     }
-  }
+}
 
-  @media only screen and (max-width: 554px) {
+@media only screen and (max-width: 554px) {
     .background {
         height: 654px;
     }
-  }
+}
 
-  @media only screen and (max-width: 524px) {
+@media only screen and (max-width: 524px) {
     .background {
         height: 702px;
     }
-  }
+}
 
-  @media only screen and (max-width: 489px) {
+@media only screen and (max-width: 489px) {
     .background {
         height: 773px;
     }
-  }
+}
 
-  @media only screen and (max-width: 358px) {
+@media only screen and (max-width: 358px) {
     .background {
         height: 821px;
     }
-  }
+}
 
 
 .lead-container .nuveen {
@@ -192,7 +192,14 @@ html {
     flex-direction: row;
     padding-top: 50px;
     justify-content: flex-start;
-} 
+}
+
+@media only screen and (max-width: 870px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .column-one {
     width: 45%;
@@ -202,6 +209,13 @@ html {
     font-family: "FinancierDisplay-Light";
     margin-right: 8%;
 }
+
+@media only screen and (max-width: 870px) {
+    .column-one {
+        width: 90%;
+    }
+}
+
 
 .column-one h4 {
     font-size: 3rem;
@@ -217,20 +231,46 @@ html {
 
 .column-two {
     margin-top: 65px;
-    width:45%;
+    width: 45%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.jack img { 
+@media only screen and (max-width: 870px) {
+    .column-two {
+        margin-left: 40px;
+        width: 90%;
+    }
+}
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: -60px;
+}
+
+@media only screen and (max-width: 870px) {
+    .employees {
+        flex-direction: row;
+    }
+  }
+
+.employee {
+    display: flex;
+    flex-direction: column;
+}
+
+.jack img {
     width: 175px;
     height: 175px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.Filippo img { 
+.Filippo img {
     width: 175px;
     height: 175px;
     object-fit: cover;
@@ -271,6 +311,14 @@ html {
     padding-right: 2rem;
     padding-bottom: 2rem;
 }
+
+@media only screen and (max-width: 870px) {
+    .MIPIM-talk {
+
+        width: 90%;
+    }
+}
+
 
 .MIPIM-talk h4 {
     font-family: "FinancierDisplay-Medium";
